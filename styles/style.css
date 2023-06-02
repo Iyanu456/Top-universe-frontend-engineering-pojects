@@ -1,0 +1,111 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: arial;
+    text-decoration: none;
+}
+small {
+    font-size: .638rem;
+}
+.profile {
+    display: flex;
+    width: 100%;
+    height: fit-content;
+}
+.profile > img {
+    width: 2.5em;
+    height: 2.5em;
+    border-radius: 50%;
+}
+.profile > div {
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 0.65em;
+}
+.profile > div > p.name {
+    font-size: 0.83rem;
+    font-weight: 560;
+    margin-bottom: 5px;
+}
+.profile > div > p.info {
+    font-size: 0.62rem;
+    font-weight: 545;
+    color: rgb(97, 96, 96);
+}
+.profile > button {
+    margin: auto auto auto 2.2em;
+}
+.profile > div.info-dot {
+    margin: auto auto auto 3em;
+}
+.caption {
+    width: 80%;
+    font-size: .65rem;
+}
+.info-dot {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+.info-dot > div {
+    border-radius: 50%;
+    width: 3px;
+    height: 3px;
+    background-color: black;
+}
+.wd-100 {
+    width: 100%;
+}
+
+/** Card 11 **/
+.card-11{
+    padding: 1.25em;
+}
+.label-11 {
+    display: flex;
+    margin-top: 0.625em;
+}
+.label-11 > p {
+    font-size: 0.65em;
+    margin: auto auto auto 0.4em;
+}
+
+/** Card 10 **/
+.card-10 {
+    padding: 1.25em;
+}
+
+.card-10 > div {
+    display: flex;
+}
+
+.card-10 > div > h2 {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.cd-10-circle {
+    display: grid;
+    place-items: center;
+    background-color: black;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    margin: 0.3125em 1.25em auto auto;
+}
+
+.cd-10-circle > div {
+    border-radius: 50%;
+    height: 5px;
+    width: 5px;
+    background-color: yellow;
+}
+
+@media (max-width: 480px) {
+  .profile > div.info-dot {
+    margin: auto auto auto 6.9em;
+}
+}
